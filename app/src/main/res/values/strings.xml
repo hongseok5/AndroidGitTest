@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <string name="pg2_loc">위치</string>
+    <string name="pg2_way">수단</string>
+    <string name="pg2_price">가격</string>
+    <string name="pg2_score">평점</string>
+    <string name="pg2_fbook">Facebook</string>
+    <string name="pg2_tour">투어선택</string>
+</resources>

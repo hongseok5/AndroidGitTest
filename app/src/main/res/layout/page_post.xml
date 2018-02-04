@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="5dp"
+    tools:context="com.example.bit.myapplication1.MainActivity">
+
+
+
+
+
+    <ImageView
+        android:id="@+id/pg2_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dog"
+        android:maxWidth="140dp"
+        android:maxHeight="140dp"
+        android:adjustViewBounds="true"/>
+
+    <EditText
+        android:id="@+id/input_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFF00"
+        android:padding="10dp"
+        android:text="예) 우리집 강아지는 푸들믹스"
+        android:layout_toRightOf="@+id/pg2_image"
+        android:layout_alignParentEnd="true"
+        />
+
+
+    <TextView
+        android:id="@+id/pg2_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pg2_loc"
+        android:padding="11dp"
+        android:layout_centerVertical="true"
+
+         />
+
+    <EditText
+        android:id="@+id/input_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFF00"
+        android:padding="10dp"
+        android:text="예) 비트컴퓨터"
+        android:layout_alignTop="@+id/pg2_loc"
+        android:layout_toRightOf="@+id/pg2_loc"
+        />
+    <TextView
+        android:id="@+id/pg2_way"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pg2_way"
+        android:padding="11dp"
+        android:layout_below="@+id/pg2_loc"
+         />
+
+    <EditText
+        android:id="@+id/input_way"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFF00"
+        android:padding="10dp"
+        android:text="예) 아시아나항공/하야트호텔"
+        android:layout_alignTop="@+id/pg2_way"
+        android:layout_toRightOf="@+id/pg2_way"
+        android:layout_below="@+id/input_loc"
+        />
+
+    <TextView
+        android:id="@+id/pg2_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pg2_price"
+        android:padding="11dp"
+        android:layout_below="@+id/pg2_way"
+         />
+
+    <EditText
+        android:id="@+id/input_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFF00"
+        android:padding="10dp"
+        android:text="예) $1,000"
+        android:layout_alignTop="@+id/pg2_price"
+        android:layout_toRightOf="@+id/pg2_price"
+        android:layout_below="@+id/input_way"
+        />
+
+    <TextView
+        android:id="@+id/pg2_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pg2_score"
+        android:padding="11dp"
+        android:layout_below="@+id/pg2_price"
+        />
+
+    <EditText
+        android:id="@+id/input_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFF00"
+        android:padding="10dp"
+        android:text=" ***** "
+        android:layout_alignTop="@+id/pg2_score"
+        android:layout_toRightOf="@+id/pg2_score"
+        android:layout_below="@+id/input_price"
+        />
+
+    <TextView
+        android:id="@+id/pg2_fbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pg2_fbook"
+        android:padding="11dp"
+        android:layout_below="@+id/pg2_score"
+
+        />
+
+    <EditText
+        android:id="@+id/input_fbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFF00"
+        android:padding="10dp"
+        android:text=" 슬라이드 버튼"
+        android:layout_below="@+id/input_score"
+        android:layout_alignTop="@+id/pg2_fbook"
+        android:layout_toRightOf="@+id/pg2_fbook"
+        />
+
+    <TextView
+        android:id="@+id/pg2_tour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pg2_tour"
+        android:padding="11dp"
+        android:layout_below="@+id/pg2_fbook"
+        />
+
+    <EditText
+        android:id="@+id/input_tour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFF00"
+        android:padding="10dp"
+        android:text=" select 태그 "
+        android:layout_below="@+id/input_fbook"
+        android:layout_alignTop="@+id/pg2_tour"
+        android:layout_toRightOf="@+id/pg2_tour"
+        />
+
+    <Button
+        android:id="@+id/postbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "POST"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
